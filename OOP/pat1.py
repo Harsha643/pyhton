@@ -16,10 +16,10 @@ for i in range(1,6):
 
 print("__________________________________")
 
-rows = 5
+rows = 8
 for h in range(rows):
     for g in range(rows - h - 1):
         print(" ", end="")
-    for l in range(8): 
+    for l in range(rows): 
         print("*", end="")
     print()
