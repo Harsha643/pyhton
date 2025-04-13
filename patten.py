@@ -263,3 +263,20 @@ for i in range(1,n+1):
             print(j,end=" ")
     print()
 
+print("_________________________________")
+
+
+
+
+num = -350
+original = num 
+sign = -1 if num < 0 else 1
+num = abs(num)
+rev = 0
+while num != 0:
+    rem = num % 10
+    rev = rev * 10 + rem
+    num = num // 10
+rev = rev * sign
+
+print(rev)
